@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -143,7 +143,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -329,10 +329,10 @@ MonoBehaviour:
     m_Folders:
     - Assets
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 73
   m_LastFolders:
   - Assets
-  m_LastFoldersGridSize: -1
+  m_LastFoldersGridSize: 73
   m_LastProjectPath: C:\Users\Austin\Documents\Scout
   m_IsLocked: 0
   m_FolderTreeState:
@@ -420,7 +420,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 73
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
 MonoBehaviour:
@@ -487,21 +487,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 9efbffff0000000022280000
+    m_ExpandedIDs: 885bf9ffec5bf9fffe5cf9ff025df9ffd661f9ff3a62f9ff4c63f9ff5063f9ff1473f9ff7873f9ff8a74f9ff8e74f9ff22f1f9ff86f1f9ff98f2f9ff9cf2f9ff0669fafffc91faff6092faff7293faff7693fafff29ffaff56a0faff68a1faff6ca1faff78b0faffdcb0faffeeb1fafff2b1faff5e9bfdfff42fffff7235ffff1c36ffff3437ffff3837ffff0e4fffff724fffff8a50ffff8e50ffff0e70ffff3089ffff248affff628bffff9c8fffff3694ffffe094fffffc95ffff0a96ffff1e9affffd8ebffff60faffff9efbffff00000000d2280000d62b000054310000643100008a3100009031000096310000bc320000c6320000cc320000f832000062510000b6540000aa570000f6570000165c000096610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: GameObject
+      m_OriginalName: GameObject
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 22442
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -538,14 +538,14 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 7531.82371077729
+  lastFramingTime: 6370.2587083646595
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 192.87804, y: 86.786545, z: -0.35008144}
+    m_Target: {x: 189.00586, y: 82.835754, z: 0}
     speed: 2
-    m_Value: {x: 192.87804, y: 86.786545, z: -0.35008144}
+    m_Value: {x: 189.00586, y: 82.835754, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -573,9 +573,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 43.7007
+    m_Target: 47.103935
     speed: 2
-    m_Value: 43.7007
+    m_Value: 47.103935
   m_Ortho:
     m_Target: 1
     speed: 2
