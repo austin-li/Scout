@@ -14,6 +14,7 @@ public class CameraMove : MonoBehaviour {
     private int logo;
     private bool win;
     private bool translated;
+    private float x;
 
     public float timer = 6;
     public float sceneTimer = 2;
@@ -46,7 +47,7 @@ public class CameraMove : MonoBehaviour {
             }
 
             if (Input.GetKeyDown("space")) {
-                float x = transform.position.x;
+                x = transform.position.x;
                 if (logo == 0 && (Mathf.Abs(x - 174.5f) < 4 || Mathf.Abs(x - 215.5f) < 4) ||
                     logo == 1 && Mathf.Abs(x - 194.3f) < 4 ||
                     logo == 2 && Mathf.Abs(x - 184.1f) < 4 ||
@@ -60,6 +61,13 @@ public class CameraMove : MonoBehaviour {
         }
 
         if (timer < 0 || win) {
+            x = transform.position.x;
+            if (logo == 0 && (Mathf.Abs(x - 174.5f) < 4 || Mathf.Abs(x - 215.5f) < 4) ||
+                logo == 1 && Mathf.Abs(x - 194.3f) < 4 ||
+                logo == 2 && Mathf.Abs(x - 184.1f) < 4 ||
+                logo == 3 && (Mathf.Abs(x - 163.7f) < 4 || Mathf.Abs(x - 204.8f) < 4)) {
+                win = true;
+            }
             if (win) {
                 timer = 0;
                 text.text = "O";
